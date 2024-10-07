@@ -80,7 +80,7 @@ const DigitalMarketing = () => {
 
     return (
 
-        <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+        <section class="py-10 bg-white sm:py-16 lg:py-24">
 
 
 
@@ -96,7 +96,7 @@ const DigitalMarketing = () => {
 
 
 
-            <div class="pt-4 overflow-hidden bg-gray-50 md:pt-0 sm:pt-8 2xl:pt-8  ">
+            <div class="pt-4 overflow-hidden bg-white md:pt-0 sm:pt-8 2xl:pt-8  ">
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class=" grid grid-cols-1  items-center md:grid-cols-2">
                         <div className=' ml-10  '>
@@ -113,7 +113,7 @@ const DigitalMarketing = () => {
                         </div>
 
                         <div className="relative">
-                            <img className="ml-6" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
+                            <img className="ml-5" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
 
                         </div>
                     </div>
@@ -202,7 +202,7 @@ const DigitalMarketing = () => {
 
 
 
-            <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+            <section className="py-10 bg-.bg-white sm:py-16 lg:py-24">
                 <div className="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
