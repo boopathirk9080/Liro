@@ -103,7 +103,7 @@ const DigitalMarketing = () => {
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">DIGITAL MARKETING</span></h2>
                             <br></br>
                             <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
-                                Liro Studios helps businesses grow using digital marketing strategies. We use social media, search engines, and websites to reach customers. Our methods include SEO, content marketing, email campaigns,  improve online visibility and engage with customers. By analyzing data and adjusting strategies in real time.
+                                Liro Studios helps businesses grow using digital dmarketing strategies. We use social media, search engines, and websites to reach customers. Our methods include SEO, content marketing, email campaigns,  improve online visibility and engage with customers. By analyzing data and adjusting strategies in real time.
                             </p>
                             {/* <p className="mt-4 text-xl text-gray-600 md:mt-8">
 
