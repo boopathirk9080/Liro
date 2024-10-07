@@ -103,17 +103,17 @@ const DigitalMarketing = () => {
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">DIGITAL MARKETING</span></h2>
                             <br></br>
                             <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
-                                Liro Studios drives business growth through digital marketing. We boost online visibility with SEO, social media, and targeted ads, ensuring real-time optimization for maximum success.
+                                Liro Studios helps businesses grow using digital marketing strategies. We use social media, search engines, and websites to reach customers. Our methods include SEO, content marketing, email campaigns, and targeted ads to improve online visibility and engage with customers. By analyzing data and adjusting strategies in real time.
                             </p>
-                            <p className="mt-4 text-xl text-gray-600 md:mt-8">
+                            {/* <p className="mt-4 text-xl text-gray-600 md:mt-8">
 
                                 <button className="cta-button">Discover More</button>
-                            </p>
+                            </p> */}
 
                         </div>
 
                         <div className="relative">
-                            <img className="ml-20" style={{ width: 350 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
+                            <img className="ml-6" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
 
                         </div>
                     </div>
