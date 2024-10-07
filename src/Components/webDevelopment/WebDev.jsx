@@ -164,11 +164,10 @@ const WebDev = () => {
 
             <br></br>
             <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
                             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Our Expertise</h2>
-
                         </div>
 
                         <div className="hidden lg:flex lg:items-center lg:space-x-3">
@@ -186,15 +185,15 @@ const WebDev = () => {
                         </div>
                     </div>
 
-                    <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+                    <div className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
                         {displayedCards.map((card, index) => (
                             <div key={index} className="overflow-hidden bg-white rounded shadow">
-                                <div className="p-5">
+                                <div className="p-9">
                                     <div className="relative">
                                         <div className="relative flex justify-center items-center">
                                             <div className="block block flex items-center justify-center">
                                                 <img className="object-cover"
-                                                    style={{ height: '70%', width: '60%' }}
+                                                    style={{ height: '70%', width: '50%' }}
                                                     src={card.image} alt="" />
                                             </div>
                                         </div>
@@ -202,7 +201,7 @@ const WebDev = () => {
                                     <p className="mt-5 text-2xl font-semibold">
                                         <div className="text-center text-black"> {card.title} </div>
                                     </p>
-                                    <p className="mt-4 text-base text-gray-600">{card.description}</p>
+                                    <p className="mt-4 text-justify text-base sm:text-2xl lg:text-base text-gray-500">{card.description}</p>
 
                                 </div>
                             </div>

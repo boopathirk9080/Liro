@@ -102,7 +102,7 @@ const DigitalMarketing = () => {
                         <div className=' ml-10  '>
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">DIGITAL MARKETING</span></h2>
                             <br></br>
-                            <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-8">
+                            <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
                                 Liro Studios drives business growth through digital marketing. We boost online visibility with SEO, social media, and targeted ads, ensuring real-time optimization for maximum success.
                             </p>
                             <p className="mt-4 text-xl text-gray-600 md:mt-8">

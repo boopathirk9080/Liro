@@ -28,6 +28,53 @@ const Multimedia = () => {
 
 
 
+
+
+
+
+            <div class="pt-4 overflow-hidden bg-gray-50 md:pt-0 sm:pt-8 2xl:pt-8  ">
+                <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                    <div class=" grid grid-cols-1  items-center md:grid-cols-2">
+                        <div className=' ml-10  '>
+                            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">MULTIMEDIA MARKETING</span></h2>
+                            <br></br>
+                            <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
+                                Bringing imagination to life with unparalleled multimedia content creation, we specialize in visual effects, 3D animation, and studio editing. Leveraging industry-leading tools       </p>
+                            <p className="mt-4 text-xl text-gray-600 md:mt-8">
+
+                                <button className="cta-button">Discover More</button>
+                            </p>
+
+                        </div>
+
+                        <div className="relative">
+                            <img className="ml-20" style={{ width: 350 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
+
+                        </div>
+                    </div>
+                </div>
+            </div >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
                 {/* Image Section */}
                 <div className="md:max-w-[700px] mx-auto">
@@ -84,31 +131,36 @@ const Multimedia = () => {
 
             <br></br>
             <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
-                            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Our Expertise</h2>
+                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Our Expertise</h2>
                         </div>
 
                         <div className="hidden lg:flex lg:items-center lg:space-x-3">
                         </div>
                     </div>
 
-                    <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-2 lg:max-w-full">
+                    <div className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
                         {displayedCards.map((card, index) => (
                             <div key={index} className="overflow-hidden bg-white rounded shadow">
-                                <div className="p-5">
-                                    <div className="relative flex justify-center items-center">
-                                        <div className="block items-center justify-center">
-                                            <img className="object-cover"
-                                                style={{ height: '70%', width: '60%' }}
-                                                src={card.image} alt="" />
+                                <div className="p-9">
+                                    <div className="relative">
+                                        <div className="relative flex justify-center items-center">
+                                            <div className="block items-center justify-center">
+                                                <img
+                                                    className="flex object-cover mx-auto sm:ml-auto" // Center the image on mobile, use auto margin for larger screens
+                                                    style={{ height: '70%', width: '50%' }}
+                                                    src={card.image} alt=""
+                                                />
+                                            </div>
                                         </div>
                                     </div>
+
                                     <p className="mt-5 text-2xl font-semibold">
                                         <div className="text-center text-black"> {card.title} </div>
                                     </p>
-                                    <p className="mt-4 text-base text-gray-600">{card.description}</p>
+                                    <p className="mt-4 text-justify text-base sm:text-2xl lg:text-base text-gray-500">{card.description}</p>
                                 </div>
                             </div>
                         ))}
