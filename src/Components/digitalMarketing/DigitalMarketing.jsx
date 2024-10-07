@@ -103,7 +103,7 @@ const DigitalMarketing = () => {
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">DIGITAL MARKETING</span></h2>
                             <br></br>
                             <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
-                                Liro Studios helps businesses grow using digital marketing strategies. We use social media, search engines, and websites to reach customers. Our methods include SEO, content marketing, email campaigns, and targeted ads to improve online visibility and engage with customers. By analyzing data and adjusting strategies in real time.
+                                Liro Studios helps businesses grow using digital marketing strategies. We use social media, search engines, and websites to reach customers. Our methods include SEO, content marketing, email campaigns,  improve online visibility and engage with customers. By analyzing data and adjusting strategies in real time.
                             </p>
                             {/* <p className="mt-4 text-xl text-gray-600 md:mt-8">
 
@@ -113,7 +113,7 @@ const DigitalMarketing = () => {
                         </div>
 
                         <div className="relative">
-                            <img className="ml-5" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
+                            <img className="ml-4" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
 
                         </div>
                     </div>
@@ -225,7 +225,7 @@ const DigitalMarketing = () => {
                     </div>
                     <div className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
                         {displayedCards.map((card, index) => (
-                            <div key={index} className="overflow-hidden bg-white rounded shadow">
+                            <div key={index} className="overflow-hidden bg-gray-50 rounded shadow">
                                 <div className="p-9">
                                     <div className="relative">
                                         <div className="relative flex justify-center items-center">
