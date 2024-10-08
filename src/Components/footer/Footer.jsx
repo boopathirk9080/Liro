@@ -54,7 +54,7 @@ const Footer = () => {
 
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/digitalmarketing" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
+                                        <Link to="/digitalmarketing" className="lg:text-base  sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
                                     </li>
                                     <li>
                                         <Link to="/webdevelopment" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Web Development</Link>
@@ -143,7 +143,7 @@ const Footer = () => {
                         </li>
 
                         <li>
-                            <a href="https://wa.me/91877879647?text=what%20you%20want" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                            <a href="https://api.whatsapp.com/send?phone=918778796477&text=Hello%2C%20I%20want%20more%20info%20about%20the%20product " title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
 
                                 <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
                                     <path
