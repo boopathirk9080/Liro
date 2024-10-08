@@ -264,7 +264,7 @@ const Nav = () => {
                 <br />
                 <div className=''>
                   <Link to="/" className="flex w-full mr-[70px] py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
-                    <div className='flex justify-center  mt-3' >< IoHome />
+                    <div className='flex justify-center  mt-2' >< IoHome />
                     </div  >
                     <div className='flex justify-center font-semibold ml-3 '>Home
                     </div>
@@ -276,7 +276,7 @@ const Nav = () => {
                       onClick={() => setServicesOpen(!isServicesOpen)}
                       className="flex w-full py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}
                     >
-                      <div className='flex justify-center mt-3' ><RiServiceFill />
+                      <div className='flex justify-center mt-2' ><RiServiceFill />
                       </div  >
                       <div className='flex justify-center font-semibold ml-3 '>   Services
 
@@ -304,7 +304,7 @@ const Nav = () => {
 
                     <div className='flex justify-center mt-3' ><FaHandshakeSimple />
 
-                    </div  > <div className='flex justify-center font-semibold ml-3 '> About </div>
+                    </div  > <div className='flex justify-center font-semibold ml-2 '> About </div>
 
 
                   </Link>
@@ -315,7 +315,7 @@ const Nav = () => {
 
 
 
-                    </div  > <div className='flex justify-center font-semibold ml-3 '> Testimonials  </div>
+                    </div  > <div className='flex justify-center font-semibold ml-2 '> Testimonials  </div>
 
 
 
