@@ -264,7 +264,7 @@ const Nav = () => {
                 <br />
                 <div className=''>
                   <Link to="/" className="flex w-full mr-[70px] py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
-                    <div className='flex justify-center  mt-2' >< IoHome />
+                    <div className='flex justify-center  mt-3' >< IoHome />
                     </div  >
                     <div className='flex justify-center font-semibold ml-3 '>Home
                     </div>
