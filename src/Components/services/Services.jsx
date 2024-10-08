@@ -49,10 +49,18 @@ const Services = () => {
 
 
             {/* Find More Button */}
-            <div class="mt-5">
+            {/* <div class="mt-5">
 
-              <Link to="/webdevelopment" class="inline-block px-6 py-2 font-semibold text-white bg-gradient-to-r from-blue-600 to-green-400 rounded-full">Find more</Link>
+              <Link to="/webdevelopment" class="inline-block px-6 py-2 font-extrabold text-white bg-gradient-to-r from-blue-600 to-green-400 rounded-full">Find more</Link>
             </div>
+             */}
+            <div class="mt-5">
+              <Link to="/webdevelopment" class="inline-block  lg:px-6 lg:py-2 md:px-8 md:py-4 font-extrabold text-white text-lg bg-gradient-to-r from-blue-600 to-green-400 rounded-full">
+                Find more
+              </Link>
+            </div>
+
+            <br />
             <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
           </div>
           <div className="md:max-w-[845px] mx-auto">
@@ -80,10 +88,16 @@ const Services = () => {
             <br />
 
             {/* Find More Button */}
-            <div class="mt-5">
+            {/* <div class="mt-5">
 
               <Link to="/graphicaldesign" class="inline-block px-6 py-2 font-semibold text-white bg-gradient-to-r from-blue-600 to-green-400 rounded-full">Find more</Link>
+            </div> */}
+            <div class="mt-5">
+              <Link to="/graphicaldesign" class="inline-block  lg:px-6 lg:py-2 md:px-8 md:py-4 font-extrabold text-white text-lg bg-gradient-to-r from-blue-600 to-green-400 rounded-full">
+                Find more
+              </Link>
             </div>
+            <br />
             <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
           </div>
 
@@ -117,10 +131,16 @@ const Services = () => {
 
 
             {/* Find More Button */}
-            <div class="mt-5">
+            {/* <div class="mt-5">
 
               <Link to="/digitalmarketing" class="inline-block px-6 py-2 font-semibold text-white bg-gradient-to-r from-blue-600 to-green-400 rounded-full">Find more</Link>
+            </div> */}
+            <div class="mt-5">
+              <Link to="/digitalmarketing" class="inline-block  lg:px-6 lg:py-2 md:px-8 md:py-4 font-extrabold text-white text-lg bg-gradient-to-r from-blue-600 to-green-400 rounded-full">
+                Find more
+              </Link>
             </div>
+            <br />
             <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
           </div>
 
@@ -152,11 +172,19 @@ const Services = () => {
             </div>
 
             {/* Find More Button */}
-            <div class="mt-5">
+            {/* <div class="mt-5">
 
               <Link to="/multimedia" class="inline-block px-6 py-2 font-semibold text-white bg-gradient-to-r from-blue-600 to-green-400 rounded-full">Find more</Link>
+            </div> */}
+
+            <div class="mt-5">
+              <Link to="/multimedia" class="inline-block  lg:px-6 lg:py-2 md:px-8 md:py-4 font-extrabold text-white text-lg bg-gradient-to-r from-blue-600 to-green-400 rounded-full">
+                Find more
+              </Link>
             </div>
+            <br />
             <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+
           </div>
 
         </div>

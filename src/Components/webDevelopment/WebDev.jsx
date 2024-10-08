@@ -62,7 +62,7 @@ const WebDev = () => {
 
     return (
 
-        <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+        <section class="py-10 bg-white sm:py-16 lg:py-24">
 
             {/* <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
@@ -154,7 +154,7 @@ const WebDev = () => {
             {/* -------------------------------------------------------------------------------------------------------- */}
 
             <br></br>
-            <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+            <section className="py-10 bg-white sm:py-16 lg:py-24">
                 <div className="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
@@ -178,7 +178,7 @@ const WebDev = () => {
 
                     <div className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
                         {displayedCards.map((card, index) => (
-                            <div key={index} className="overflow-hidden bg-white rounded shadow">
+                            <div key={index} className="overflow-hidden bg-gray-50 rounded shadow">
                                 <div className="p-9">
                                     <div className="relative">
                                         <div className="relative flex justify-center items-center">
