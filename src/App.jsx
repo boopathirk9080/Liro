@@ -117,7 +117,7 @@ function App() {
         <Route path="/multimedia" element={<Multimedia />} />
         <Route path="/graphicaldesign" element={<GraphicalDesign />} />
         <Route path="/testimonials" element={<Testimonial />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
 

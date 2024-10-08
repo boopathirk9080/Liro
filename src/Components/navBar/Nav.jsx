@@ -161,6 +161,7 @@ import { RiServiceFill } from "react-icons/ri";
 import { FaHandshakeSimple } from "react-icons/fa6";
 import { PiChatTeardropDotsFill } from "react-icons/pi";
 
+import { FaWindowClose } from "react-icons/fa";
 
 
 
@@ -174,15 +175,15 @@ const Nav = () => {
   return (
     <header>
       {/* Main navigation bar */}
-      <div className="relative" 
-      // style={{ background: '#734f96' }}
-      style={{ background: '#0d233afc' }}
+      <div className="relative"
+        // style={{ background: '#734f96' }}
+        style={{ background: '#0d233afc' }}
       >
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8">
-          <nav className=" flex  items-center justify-between h-10 " style={{ height: isMobileMenuOpen ? '10px' : '78px' }}>
+          <nav className=" flex  items-center justify-between h-10 " style={{ height: isMobileMenuOpen ? '10px' : '136px' }}>
             <div className="flex-shrink-0">
               <a href="#" title="" className="flex">
-                <img className="w-auto h-12 lg:h-10" src="/logo/logo_white.png" alt="Logo" />
+                <img className="w-auto h-20 lg:h-10" src="/logo/logo_white.png" alt="Logo" />
               </a>
             </div>
 
@@ -192,7 +193,7 @@ const Nav = () => {
               className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-800 hover:bg-gray-800"
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}  // Toggle the mobile menu
             >
-              <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
               </svg>
             </button>
@@ -243,9 +244,11 @@ const Nav = () => {
               className="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800"
               onClick={() => setMobileMenuOpen(false)} // Close the mobile menu
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className=" mt-10 w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              <svg xmlns="http://www.w3.org/2000/svg" className=" mt-10 w-20 h-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                < FaWindowClose />
               </svg>
+
+
             </button>
 
             <div className="flex flex-col flex-grow h-full">
@@ -261,67 +264,76 @@ const Nav = () => {
                 <br />
                 <div className=''>
                   <Link to="/" className="flex w-full mr-[70px] py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
-                    <div className='flex justify-center mt-3' >< IoHome /></div  > <div className='flex justify-center ml-3 '>Home</div>
+                    <div className='flex justify-center mt-3' >< IoHome />
+                    </div  >
+                    <div className='flex justify-center font-semibold ml-3 '>Home
+                    </div>
                   </Link>
+
+                  <br />
                   <div className="flex flex-col">
                     <button
                       onClick={() => setServicesOpen(!isServicesOpen)}
                       className="flex w-full py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}
                     >
                       <div className='flex justify-center mt-3' ><RiServiceFill />
-                      </div  > <div className='flex justify-center ml-3 '>   Services</div>
+                      </div  >
+                      <div className='flex justify-center font-semibold ml-3 '>   Services
 
-
+                      </div>
                     </button>
                     <br />
 
-
+                    <br />
 
                     <div className="flex justify-center flex-col pl-4 ml-12">
                       <Link to="/digitalmarketing" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b>  Digital Marketing</Link>
-                      <br />
+                      <br /><br />
                       <Link to="/graphicaldesign" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
-                      <br />
+                      <br /><br />
                       <Link to="/webdevelopment" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
-                      <br />
+                      <br /><br />
                       <Link to="/multimedia" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
-                    </div>
+                    </div><br />
 
 
 
                     <br />
                   </div>
-                  <Link to="/about" className="flex w-full py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
+                  <Link to="/about" className="flex w-full py-2 text-center font-semibold text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
 
                     <div className='flex justify-center mt-3' ><FaHandshakeSimple />
 
-                    </div  > <div className='flex justify-center ml-3 '> About </div>
+                    </div  > <div className='flex justify-center font-semibold ml-3 '> About </div>
 
 
                   </Link>
+                  <br />
                   <Link to="/testimonials" className="flex w-full py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
 
                     <div className='flex justify-center mt-3' ><PiChatTeardropDotsFill />
 
 
 
-                    </div  > <div className='flex justify-center ml-3 '> Testimonials  </div>
+                    </div  > <div className='flex justify-center font-semibold ml-3 '> Testimonials  </div>
 
 
 
                   </Link>
                 </div>
-                <div className="flex  ">
-                  <a
-                    href="#"
-                    title=""
-                    className="bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce w-auto mt-4"
-                    role="button"
-                    style={{ fontSize: '20px' }}
-                  >
-                    Contact Us
-                  </a>
-                </div>
+                <Link to="/contact">
+                  <div className="flex  justify-items-center ">
+                    <a
+                      href="#"
+                      title=""
+                      className="bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce w-auto mt-4"
+                      role="button"
+                      style={{ fontSize: '30px' }}
+                    >
+                      Contact Us
+                    </a>
+                  </div>
+                </Link>
               </nav>
             </div>
           </nav >

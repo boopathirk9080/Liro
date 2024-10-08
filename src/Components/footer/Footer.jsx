@@ -25,9 +25,9 @@ const Footer = () => {
             <div className="px-4 mx-auto sm:px-6 lg:px-8  max-w-7xl">
                 <section className="py-10 sm:flex lg: sm:justify-center   bg-blue-900 sm:pt-16 lg:pt-24 sectionStyle">
                     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                        <div className="grid grid-cols-1 col-gap-11rem gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-176 lg:gap-x-40">
+                        <div className="grid grid-cols-1 col-gap-11rem gap-y-12 md:grid-cols-2 lg:grid-cols-4 sm:gap-x-36 lg:gap-x-40">
                             <div>
-                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Company</p>
+                                <p className="lg:text-lg sm:text-[42px] font-semibold text-white">Company</p>
 
 
 
@@ -49,7 +49,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Services </p>
+                                <p className="lg:text-lg sm:text-[42px] font-semibold text-white">Services </p>
 
 
                                 <ul className="mt-8 space-y-4">
@@ -69,7 +69,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Resources</p>
+                                <p className="lg:text-lg sm:text-[42px] font-semibold text-white">Resources</p>
                                 <ul className="mt-8 space-y-4">
                                     <li>
                                         <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Extra Links</p>
+                                <p className="lg:text-lg sm:text-[42px] font-semibold text-white">Extra Links</p>
                                 <ul className="mt-8 space-y-4">
                                     <li>
                                         <Link to="/contact" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Customer Support</Link>

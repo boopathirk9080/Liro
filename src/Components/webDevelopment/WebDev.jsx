@@ -20,11 +20,11 @@ const WebDev = () => {
             image: './webDev/webDesign.png',
             description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
         },
-        {
-            title: 'Backend Web Development',
-            image: './webDev/webDesign.png',
-            description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
-        },
+        // {
+        //     title: 'Backend Web Development',
+        //     image: './webDev/webDesign.png',
+        //     description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
+        // },
         {
             title: 'Mobile App Development',
             image: './webDev/Mobiledevelopment.png',
@@ -35,11 +35,11 @@ const WebDev = () => {
             image: './webDev/Website.png',
             description: "Expand your brand's reach with our strategic Ad Campaigns. We create and execute targeted ads that capture attention, drive traffic, and convert leads, using precise targeting and creative content."
         },
-        {
-            title: 'UI/UX Design',
-            image: './webDev/webDesign.png',
-            description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
-        },
+        // {
+        //     title: 'UI/UX Design',
+        //     image: './webDev/webDesign.png',
+        //     description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
+        // },
         {
             title: 'Website Maintenance & Consulting',
             image: './webDev/webDesign.png',
