@@ -71,8 +71,7 @@ const Multimedia = () => {
 
 
 
-            <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
-                {/* Image Section */}
+            {/* <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
                 <div className="md:max-w-[700px] mx-auto">
                     <div className="relative">
                         <div className="relative flex justify-center items-center">
@@ -87,7 +86,7 @@ const Multimedia = () => {
                     </div>
                 </div>
 
-                {/* Text Section */}
+           
                 <div className="md:max-w-[700px] mx-auto">
                     <div className="relative">
 
@@ -100,7 +99,7 @@ const Multimedia = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             {/* <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
