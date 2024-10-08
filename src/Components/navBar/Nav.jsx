@@ -180,7 +180,7 @@ const Nav = () => {
         style={{ background: '#0d233afc' }}
       >
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8">
-          <nav className=" flex  items-center justify-between h-10 " style={{ height: isMobileMenuOpen ? '10px' : '136px' }}>
+          <nav className=" flex  items-center justify-between lg:h-[80px] sm:h-[136px]" >
             <div className="flex-shrink-0">
               <a href="#" title="" className="flex">
                 <img className="w-auto h-20 lg:h-10" src="/logo/logo_white.png" alt="Logo" />
@@ -291,9 +291,9 @@ const Nav = () => {
                       <br /><br />
                       <Link to="/graphicaldesign" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
                       <br /><br />
-                      <Link to="/webdevelopment" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
+                      <Link to="/webdevelopment" className="py-2 text-sm text-white font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
                       <br /><br />
-                      <Link to="/multimedia" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
+                      <Link to="/multimedia" className="py-2 text-sm text-white font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
                     </div><br />
 
 
