@@ -25,77 +25,81 @@ const Footer = () => {
             <div className="px-4 mx-auto sm:px-6 lg:px-8  max-w-7xl">
                 <section className="py-10 sm:flex lg: sm:justify-center   bg-blue-900 sm:pt-16 lg:pt-24 sectionStyle">
                     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                        <div className="grid grid-cols-1 col-gap-11rem gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-80 lg:gap-x-40">
+                        <div className="grid grid-cols-1 col-gap-11rem gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-176 lg:gap-x-40">
                             <div>
-                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Company</p>
+                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Company</p>
+
+
+
+
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Home</Link>
+                                        <Link to="/" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Home</Link>
                                     </li>
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">About</Link>
+                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">About</Link>
                                     </li>
                                     <li>
-                                        <Link to="/services" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Services</Link>
+                                        <Link to="/services" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Services</Link>
                                     </li>
                                     <li>
-                                        <Link to="/" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Career</Link>
+                                        <Link to="/" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Career</Link>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Services </p>
+                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Services </p>
 
 
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/digitalmarketing" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
+                                        <Link to="/digitalmarketing" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
                                     </li>
                                     <li>
-                                        <Link to="/webdevelopment" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Web Development</Link>
+                                        <Link to="/webdevelopment" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Web Development</Link>
                                     </li>
                                     <li>
-                                        <Link to="/graphicaldesign" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Graphical Designing</Link>
+                                        <Link to="/graphicaldesign" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Graphical Designing</Link>
                                     </li>
                                     <li>
-                                        <Link to="/multimedia" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Multimedia Creations</Link>
+                                        <Link to="/multimedia" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Multimedia Creations</Link>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Resources</p>
+                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Resources</p>
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
+                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
                                     </li>
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Blogs</Link>
+                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Blogs</Link>
                                     </li>
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Our Team</Link>
+                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Our Team</Link>
                                     </li>
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Tools</Link>
+                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Tools</Link>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Extra Links</p>
+                                <p className="lg:text-lg sm:text-5xl font-semibold text-white">Extra Links</p>
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/contact" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Customer Support</Link>
+                                        <Link to="/contact" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Customer Support</Link>
                                     </li>
                                     <li>
-                                        <Link to="/contact" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Contact Us</Link>
+                                        <Link to="/contact" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Contact Us</Link>
                                     </li>
                                     <li>
-                                        <a href="#" title="" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Terms & Conditions</a>
+                                        <a href="#" title="" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Terms & Conditions</a>
                                     </li>
                                     <li>
-                                        <a href="#" title="" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Privacy Policy</a>
+                                        <a href="#" title="" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Privacy Policy</a>
                                     </li>
                                 </ul>
                             </div>
