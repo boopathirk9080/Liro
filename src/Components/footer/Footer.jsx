@@ -21,102 +21,93 @@ const Footer = () => {
 
     return (
 
-        <section className="py-10 bg-blue-900 sm:pt-16 lg:pt-24 sectionStyle" >
+        <section className="py-10 bg-blue-900 sm:pt-16 lg:pt-0 sectionStyle" >
             <div className="px-4 mx-auto sm:px-6 lg:px-8  max-w-7xl">
-                <div className="grid grid-cols-2 gap-x-5 gap-y-12 md:grid-cols-4 md:gap-x-12">
-                    <div>
-                        <p className="text-lg font-semibold text-white">Company</p>
+                <section className="py-10 sm:flex lg: sm:justify-center   bg-blue-900 sm:pt-16 lg:pt-24 sectionStyle">
+                    <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                        <div className="grid grid-cols-1 col-gap-11rem gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-80 lg:gap-x-40">
+                            <div>
+                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Company</p>
+                                <ul className="mt-8 space-y-4">
+                                    <li>
+                                        <Link to="/" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Home</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">About</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/services" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Services</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Career</Link>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <ul className="mt-8 space-y-4">
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Career </a> */}
-                                <Link to="/" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Home</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> About </a> */}
-                                <Link to="/About" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">About</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Features </a> */}
-                                <Link to="/services" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Services</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Works </a> */}
-                                <Link to="/" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Career</Link>
-                            </li>
-                        </ul>
+                            <div>
+                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Services </p>
+
+
+                                <ul className="mt-8 space-y-4">
+                                    <li>
+                                        <Link to="/digitalmarketing" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/webdevelopment" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Web Development</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/graphicaldesign" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Graphical Designing</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/multimedia" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Multimedia Creations</Link>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Resources</p>
+                                <ul className="mt-8 space-y-4">
+                                    <li>
+                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Blogs</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Our Team</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/About" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Tools</Link>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <p className="lg:text-lg sm:text-3xl font-semibold text-white">Extra Links</p>
+                                <ul className="mt-8 space-y-4">
+                                    <li>
+                                        <Link to="/contact" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Customer Support</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Contact Us</Link>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="" className="lg:text-base sm:text-2xl text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                </section>
 
-                    <div>
-                        <p className="text-lg font-semibold text-white">Services</p>
-
-                        <ul className="mt-8 space-y-4">
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </a> */}
-                                <Link to="/digitalmarketing" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Digital Marketing</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Delivery Details </a> */}
-                                <Link to="/webdevelopment" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Web Development</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Terms & Conditions </a> */}
-                                <Link to="/graphicaldesign" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Graphical Designing</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a> */}
-                                <Link to="/multimedia" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Multimedia Creations</Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <p className="text-lg font-semibold text-white">Resources</p>
-
-                        <ul className="mt-8 space-y-4">
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Free eBooks </a> */}
-                                <Link to="/About" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Development Tutorial </a> */}
-                                <Link to="/About" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Blogs</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> How to - Blog </a> */}
-                                <Link to="/About" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Our Team</Link>
-                            </li>
-                            <li>
-                                {/* <a href="#" title="" class="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> YouTube Playlist </a> */}
-                                <Link to="/About" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Tools</Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <p className="text-lg font-semibold text-white">Extra Links</p>
-
-                        <ul className="mt-8 space-y-4">
-                            <li>
-                                <Link to="/contact" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Customer Support </Link>
-                            </li>
-                            <li>
-                                <Link to="/contact" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Contact Us </Link>
-                            </li>
-                            <li>
-                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Terms & Conditions </a>
-                            </li>
-                            <li>
-                                <a href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"> Privacy Policy </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
                 <hr className="mt-16 mb-10 border-gray-800" />
 
                 <div className="flex flex-wrap items-center md:pl-5 md:pr-5 justify-between">
-                    <img className="h-9 w-50 auto md:order-1" src="/logo/logo_white.png" alt="Liro Studios" />
+                    <img className="h-10 w-auto auto md:order-1" src="/logo/logo_white.png" alt="Liro Studios" />
 
                     <ul className="flex items-center space-x-3 md:order-3">
                         {/* <li>
@@ -130,8 +121,8 @@ const Footer = () => {
                         </li> */}
 
                         <li>
-                            <a href="https://www.instagram.com/liro_studios?igsh=MWpndnpneTIyMjVmZw==" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
-                                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <a href="https://www.instagram.com/liro_studios?igsh=MWpndnpneTIyMjVmZw==" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                                <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
                                     <circle cx="16.806" cy="7.207" r="1.078"></circle>
                                     <path
@@ -154,8 +145,8 @@ const Footer = () => {
                         </li> */}
 
                         <li>
-                            <a href="https://www.linkedin.com/in/liro-studios?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
-                                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+                            <a href="https://www.linkedin.com/in/liro-studios?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                                <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
                                     <path
                                         fill-rule="evenodd"
                                         clip-rule="evenodd"
@@ -166,8 +157,8 @@ const Footer = () => {
                         </li>
 
                         <li>
-                            <Link to="/contact" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
-                                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                            <Link to="/contact" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                                <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
                                     <path
                                         fill-rule="evenodd"
                                         clip-rule="evenodd"
@@ -178,15 +169,15 @@ const Footer = () => {
                         </li>
 
                         <li>
-                            <a href="https://www.facebook.com" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
-                                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <a href="https://www.facebook.com" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-16 h-16 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                                <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                     <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
                                 </svg>
                             </a>
                         </li>
                     </ul>
 
-                    <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2024, All Rights Reserved by Liro Studios</p>
+                    <p className="w-full mt-8 text-base text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2024, All Rights Reserved by Liro Studios</p>
                 </div>
 
             </div>
@@ -196,3 +187,19 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
