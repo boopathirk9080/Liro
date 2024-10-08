@@ -93,11 +93,13 @@ const Home = () => {
                         <br></br>
                         <h2 className="text-3xl mt-4 font-bold subheading"><span class="highlights">{text}<Cursor cursorStyle="|" /></span></h2>
                         <p class="max-w-lg mt-4 text-xl  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-8">Welcome to Liro Studios, where creativity seamlessly meets innovation. As a premier design studio, we take pride in our ability to transform visions into captivating visual experiences.</p>
-                        <p class="mt-4 text-xl text-gray-600 md:mt-8">
 
-                            <button className="cta-button">Discover More</button>
-                        </p>
+                        <Link to="/contact" >
+                            <p class="mt-4 text-xl text-gray-600 md:mt-8">
 
+                                <button className="cta-button"> Discover More </button>
+                            </p>
+                        </Link>
                     </div>
 
                     <div class="relative">
