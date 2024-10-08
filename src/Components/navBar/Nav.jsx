@@ -287,13 +287,13 @@ const Nav = () => {
                     <br />
 
                     <div className="flex justify-center flex-col pl-4 ml-12">
-                      <Link to="/digitalmarketing" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b>  Digital Marketing</Link>
+                      <Link to="/digitalmarketing" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b>  Digital Marketing</Link>
                       <br /><br />
-                      <Link to="/graphicaldesign" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
+                      <Link to="/graphicaldesign" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
                       <br /><br />
-                      <Link to="/webdevelopment" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
+                      <Link to="/webdevelopment" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
                       <br /><br />
-                      <Link to="/multimedia" className="py-2 text-sm text-white transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
+                      <Link to="/multimedia" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
                     </div><br />
 
 
