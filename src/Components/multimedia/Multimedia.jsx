@@ -24,36 +24,32 @@ const Multimedia = () => {
 
 
 
-
-
-
-
-
-
-
-
-            <div class="pt-4 overflow-hidden bg-gray-50 md:pt-0 sm:pt-8 2xl:pt-8  ">
+            <div class="pt-4 overflow-hidden bg-white md:pt-0 sm:pt-8 2xl:pt-8  ">
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class=" grid grid-cols-1  items-center md:grid-cols-2">
                         <div className=' ml-10  '>
-                            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span className="highlights">MULTIMEDIA MARKETING</span></h2>
+                            <h2 class="sm:w-700px text-3xl font-bold leading-tight text-black sm:text-4xl  lg:text-5xl"><span class="highlights">MULTIMEDIA MARKETING</span></h2>
                             <br></br>
                             <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
-                                Bringing imagination to life with unparalleled multimedia content creation, we specialize in visual effects, 3D animation, and studio editing. Leveraging industry-leading tools       </p>
-                            <p className="mt-4 text-xl text-gray-600 md:mt-8">
 
-                                <button className="cta-button">Discover More</button>
+                                We bring imagination to life with stunning multimedia content creation, specializing in visual effects, 3D animation, and editing. Using tools like Maya, Blender, and DaVinci Resolve, we craft immersive experiences. Our team ensures every detail elevates your brand, delivering captivating content across platforms.
                             </p>
-
                         </div>
 
                         <div className="relative">
-                            <img className="ml-20" style={{ width: 350 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
+                            <img className="ml-4" style={{ width: 450 }} src="./digitalMarketing/animated1.gif" alt="Digital Marketing Animation" />
 
                         </div>
                     </div>
                 </div>
             </div >
+
+
+
+
+
+
+
 
 
 
