@@ -1,90 +1,141 @@
-import React, { useRef, useEffect } from 'react';
-import vidIcons from "../../assets/AboutPage/er.mp4";
+import React from 'react';
+import image1 from "../../assets/AboutPage/app_icons/1.png";
+import image2 from "../../assets/AboutPage/app_icons/2.png";
+import image3 from "../../assets/AboutPage/app_icons/3.png";
+import image4 from "../../assets/AboutPage/app_icons/4.png";
+import image5 from "../../assets/AboutPage/app_icons/5.png";
+import image6 from "../../assets/AboutPage/app_icons/6.png";
+import image7 from "../../assets/AboutPage/app_icons/7.png";
+import image8 from "../../assets/AboutPage/app_icons/8.png";
+import image9 from "../../assets/AboutPage/app_icons/9.png";
+import image10 from "../../assets/AboutPage/app_icons/10.png";
+import image11 from "../../assets/AboutPage/app_icons/11.png";
+import image12 from "../../assets/AboutPage/app_icons/12.png";
+import image13 from "../../assets/AboutPage/app_icons/13.png";
+import image14 from "../../assets/AboutPage/app_icons/14.png";
 import './Icons.css';
-import pic1 from "../../assets/AboutPage/png-1.png"; // Update with your actual image path
-import pic2 from "../../assets/AboutPage/png-3.png"; // Update with your actual image path
-import pic3 from "../../assets/AboutPage/png -4.png"; // Update with your actual image path
-import { GoIterations } from 'react-icons/go';
-import { DiSass } from 'react-icons/di';
-
 
 const Icons = () => {
-    const videoRef = useRef(null);
-
-    useEffect(() => {
-        const video = videoRef.current;
-
-        const handlePlay = () => {
-            console.log('Video started playing');
-        };
-
-        const handleEnd = () => {
-            console.log('Video ended');
-        };
-
-        if (video) {
-            video.addEventListener('play', handlePlay);
-            video.addEventListener('ended', handleEnd);
-        }
-
-        return () => {
-            if (video) {
-                video.removeEventListener('play', handlePlay);
-                video.removeEventListener('ended', handleEnd);
-            }
-        };
-    }, []);
-
     return (
+        <div>
+            <div className="marquee">
+                <div className="marquee-content sm:p-4">
+                    <div className="marquee-item ">
+                        <img className='icon' src={image1} alt="React" />
+                        <p className="name">REACT</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image2} alt="Laravel" />
+                        <p className="name">LARAVEL</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image3} alt="Server" />
+                        <p className="name">SERVER</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image4} alt="JavaScript" />
+                        <p className="name">JAVA SCRIPT</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image5} alt="HTML" />
+                        <p className="name">HTML</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image6} alt="PHP" />
+                        <p className="name">PHP</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image7} alt="Next.js" />
+                        <p className="name">NEXT JS</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image8} alt="Angular" />
+                        <p className="name">ANGULAR</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image9} alt="Premiere Pro" />
+                        <p className="name">PREMIERE PRO</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image10} alt="Java" />
+                        <p className="name">JAVA</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image11} alt="Python" />
+                        <p className="name">PYTHON</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image12} alt="MySQL" />
+                        <p className="name">MY SQL</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image13} alt="Flutter" />
+                        <p className="name">FLUTTER</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image14} alt="Photoshop" />
+                        <p className="name">PHOTOSHOP</p>
+                    </div>
+                    <div className="marquee-item ">
+                        <img className='icon' src={image1} alt="React" />
+                        <p className="name">REACT</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image2} alt="Laravel" />
+                        <p className="name">LARAVEL</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image3} alt="Server" />
+                        <p className="name">SERVER</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image4} alt="JavaScript" />
+                        <p className="name">JAVA SCRIPT</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image5} alt="HTML" />
+                        <p className="name">HTML</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image6} alt="PHP" />
+                        <p className="name">PHP</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image7} alt="Next.js" />
+                        <p className="name">NEXT JS</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image8} alt="Angular" />
+                        <p className="name">ANGULAR</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image9} alt="Premiere Pro" />
+                        <p className="name">PREMIERE PRO</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image10} alt="Java" />
+                        <p className="name">JAVA</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image11} alt="Python" />
+                        <p className="name">PYTHON</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image12} alt="MySQL" />
+                        <p className="name">MY SQL</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image13} alt="Flutter" />
+                        <p className="name">FLUTTER</p>
+                    </div>
+                    <div className="marquee-item">
+                        <img className='icon' src={image14} alt="Photoshop" />
+                        <p className="name">PHOTOSHOP</p>
+                    </div>
 
-
-        <div className="relative w-full min-h-41 bg-white text-black p-10 rounded-lg  overflow-hidden"
-            style={{ paddingLeft: "5%", paddingRight: "5%", paddingBottom: "0px" }}>
-
-            <div className="videoContainer Icons_bg">
-                <br />
-                <video
-                    ref={videoRef}
-                    src={vidIcons}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="videoElement"
-                    aria-label="Autoplaying video"
-                >
-                    Your browser does not support the video tag.
-                </video>
-
-                {/* Adding the bubble/cube effect */}
-                <div className="bubble-container">
-                    {[...Array(10)].map((_, i) => (
-                        <div key={i} className="bubble"></div>
-                    ))}
                 </div>
             </div>
-            <br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div >
-
-
-
+        </div>
     );
 };
 

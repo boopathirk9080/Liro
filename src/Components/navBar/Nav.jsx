@@ -291,9 +291,9 @@ const Nav = () => {
                       <br /><br />
                       <Link to="/graphicaldesign" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
                       <br /><br />
-                      <Link to="/webdevelopment" className="py-2 text-sm text-white font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
+                      <Link to="/webdevelopment" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
                       <br /><br />
-                      <Link to="/multimedia" className="py-2 text-sm text-white font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
+                      <Link to="/multimedia" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
                     </div><br />
 
 
