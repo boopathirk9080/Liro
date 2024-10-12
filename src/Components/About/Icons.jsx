@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from "../../assets/AboutPage/app_icons/1.png";
 import image2 from "../../assets/AboutPage/app_icons/2.png";
-import image3 from "../../assets/AboutPage/app_icons/3.png";
+import image3 from "../../assets/AboutPage/app_icons/15.png";
 import image4 from "../../assets/AboutPage/app_icons/4.png";
 import image5 from "../../assets/AboutPage/app_icons/5.png";
 import image6 from "../../assets/AboutPage/app_icons/6.png";
@@ -29,8 +29,8 @@ const Icons = () => {
                         <p className="name">LARAVEL</p>
                     </div>
                     <div className="marquee-item">
-                        <img className='icon' src={image3} alt="Server" />
-                        <p className="name">SERVER</p>
+                        <img className='icon' src={image3} alt="ADOBE ILLUSTRATOR" />
+                        <p className="name">ADOBE ILLUSTRATOR</p>
                     </div>
                     <div className="marquee-item">
                         <img className='icon' src={image4} alt="JavaScript" />
@@ -85,8 +85,8 @@ const Icons = () => {
                         <p className="name">LARAVEL</p>
                     </div>
                     <div className="marquee-item">
-                        <img className='icon' src={image3} alt="Server" />
-                        <p className="name">SERVER</p>
+                        <img className='icon' src={image3} alt="ADOBE ILLUSTRATOR" />
+                        <p className="name">ADOBE ILLUSTRATOR</p>
                     </div>
                     <div className="marquee-item">
                         <img className='icon' src={image4} alt="JavaScript" />

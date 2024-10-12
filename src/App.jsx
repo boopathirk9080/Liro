@@ -73,6 +73,8 @@ import About_Missions from './Components/About/About_Missions';
 import Acount from './Components/About/Acount';
 import Icons from './Components/About/Icons';
 import WhyChooseUs from './Components/About/WhyChooseUs';
+import SuccessStoryCard from './Components/SuccessStory/SuccessStoryCard';
+
 
 
 function App() {
@@ -100,7 +102,11 @@ function App() {
         <Route path="/about" element=
           {<>
             <Ahome />
+
             <Icons />
+            <br />
+            <SuccessStoryCard />
+            <br />
             <About_Missions />
             <WhyChooseUs />
             <Acount />

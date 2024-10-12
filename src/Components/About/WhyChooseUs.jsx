@@ -21,7 +21,7 @@ const AboutCompany = () => {
 
                     <div className="px-5 sm:px-0">
 
-                        <p className="mt-4 text-base leading-relaxed text-black text-justify"
+                        <p className="mt-4 lg:text-base md:text-2xl sm:text-2xl leading-relaxed text-black text-justify"
                             style={{ maxWidth: '100%', letterSpacing: "0px" }}>
                             Innovation-Driven: We are always at the forefront of the latest technological advancements, ensuring our clients
                             benefit from cutting-edge solutions.
