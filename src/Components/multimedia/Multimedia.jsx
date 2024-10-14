@@ -6,17 +6,40 @@ const Multimedia = () => {
 
     const cards = [
         {
-            title: 'Videography',
+            title: 'Photography ',
             image: '/multimedia/Videography.png',
-            description: "At Liro Studios, we believe that every brand has a story to tell, and our videography services are designed to bring that story to life. Whether you’re looking to create a captivating commercial, an engaging social media video, or a compelling corporate film, our team of experienced videographers and editors are here to turn your vision into reality."
+            description: "At Lira, we believe a single photograph captures fleeting moments, evoking powerful emotions. Showcasing life's beauty through the lens, inspiring viewers to appreciate visual storytelling in everyday experiences, fine art photography, commercial photography, and professional photography services."
         },
         {
-            title: 'Photography',
+            title: 'Videography ',
             image: '/multimedia/photography.png',
-            description: "At Liro Studios, we understand the power of a single image. Our photography services are designed to capture the essence of your brand, product, or event with creativity and precision. Whether you need professional corporate photography, product photography, or engaging social media images, our team of skilled photographers is here to deliver stunning visuals that resonate with your audience."
+            description: "At Liro, our expertise in videography and video production combines visualization and creativity to produce stunning films. Through skilled filming and advanced video editing techniques, we craft compelling narratives that engage audiences and bring your vision to life with every project."
+        },
+        {
+            title: 'VFX ',
+            image: '/multimedia/photography.png',
+            description: "At Liro. VFX is integral to our creative process, allowing us to transform concepts into stunning visuals. Our expertise in 3D modeling and animation elevates every project captivating audiences and enhancing storytelling with immersive, breathtaking experiences that leave a lasting impact."
         }
+         /*{
+             title: 'Backend Web Development',
+             image: './webDev/webDesign.png',
+             description: "At Liro, we specialize in backend development, delivering robust, efficient solutions that enhance your online presence. Our team prioritizes security, scalability, and performance, ensuring seamless integration tailored to your unique needs for online success."
+         }, */
+        
     ];
-    const displayedCards = [...cards, ...cards].slice(currentIndex, currentIndex + 2);
+
+    const handlePrevClick = () => {
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? cards.length - 1 : prevIndex - 1));
+    };
+
+    const handleNextClick = () => {
+        setCurrentIndex((prevIndex) => {
+            const newIndex = prevIndex + 1;
+            return newIndex >= cards.length ? 0 : newIndex;
+        });
+    };
+
+    const displayedCards = [...cards, ...cards].slice(currentIndex, currentIndex + 3);
 
     return (
         <section class="py-10 bg-white sm:py-16 lg:py-24">
@@ -28,7 +51,7 @@ const Multimedia = () => {
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class=" grid grid-cols-1  items-center md:grid-cols-2">
                         <div className=' ml-10  '>
-                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span class="highlights">MULTIMEDIA MARKETING</span></h2>
+                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span class="highlights">MULTIMEDIA CREATIONS</span></h2>
                             <br></br>
                             <p className="max-w-lg mt-4 text-xl text-justify  md:text-[24px] lg:text-[20px] leading-relaxed text-gray-600 md:mt-1rem">
 
@@ -43,31 +66,6 @@ const Multimedia = () => {
                     </div>
                 </div>
             </div >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -133,6 +131,17 @@ const Multimedia = () => {
                         </div>
 
                         <div className="hidden lg:flex lg:items-center lg:space-x-3">
+                            <button onClick={handlePrevClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </button>
+
+                            <button onClick={handleNextClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
                         </div>
                     </div>
 
@@ -142,26 +151,28 @@ const Multimedia = () => {
                                 <div className="p-9">
                                     <div className="relative">
                                         <div className="relative flex justify-center items-center">
-                                            <div className="block items-center justify-center">
-                                                <img
-                                                    className="flex object-cover mx-auto sm:ml-auto" // Center the image on mobile, use auto margin for larger screens
+                                            <div className="block block flex items-center justify-center">
+                                                <img className="object-cover"
                                                     style={{ height: '70%', width: '50%' }}
-                                                    src={card.image} alt=""
-                                                />
+                                                    src={card.image} alt="" />
                                             </div>
                                         </div>
                                     </div>
-
                                     <p className="mt-5 text-2xl font-semibold">
                                         <div className="text-center text-black"> {card.title} </div>
                                     </p>
                                     <p className="mt-4 text-justify text-base sm:text-2xl lg:text-base text-gray-500">{card.description}</p>
+
                                 </div>
                             </div>
                         ))}
                     </div>
+
+                   
                 </div>
             </section>
+
+
         </section>
     );
 

@@ -97,7 +97,12 @@ const Home = () => {
                         <Link to="/contact" >
                             <p class="mt-4 text-xl text-gray-600 md:mt-8">
 
-                                <button className="cta-button"> Discover More </button>
+                               
+                                
+                                <Link to="/about" className="cta-button"> Discover More </Link>
+
+
+                               
                             </p>
                         </Link>
                     </div>

@@ -65,8 +65,8 @@ export const Acounts = () => {
         <>
 
             {/* Numbers Section */}
-            <section className="numbers-section py-10 bg-white sm:py-16 lg:py-24">
-                <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+            <section className="numbers-section py-10 bg-white sm:py-[-30px]  lg:py-24">
+                <div className="max-w-5xl px-4 mx-auto sm:mt-[50px] lg:mt-[0px] sm:px-6 lg:px-8">
                     <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                             Numbers tell our story

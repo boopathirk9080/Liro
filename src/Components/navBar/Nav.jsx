@@ -172,6 +172,12 @@ const Nav = () => {
   // State to handle the services dropdown
   const [isServicesOpen, setServicesOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false); // Close mobile menu when any link is clicked
+    setServicesOpen(false);   // Close services dropdown when any link is clicked
+  };
+
+
   return (
     <header>
       {/* Main navigation bar */}
@@ -182,7 +188,7 @@ const Nav = () => {
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8">
           <nav className=" flex  items-center justify-between lg:h-[80px] sm:h-[136px]" >
             <div className="flex-shrink-0">
-              <a href="#" title="" className="flex">
+              <a href="/" title="HOME" className="flex">
                 <img className="w-auto h-20 lg:h-10" src="/logo/logo_white.png" alt="Logo" />
               </a>
             </div>
@@ -210,10 +216,10 @@ const Nav = () => {
                 </button>
                 {isServicesOpen && (
                   <div className="absolute left-0 mt-7 w-48 bg-white shadow-lg rounded-md z-10">
-                    <Link to="/digitalmarketing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200">Digital Marketing</Link>
-                    <Link to="/graphicaldesign" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200">Graphical Design</Link>
-                    <Link to="/webdevelopment" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200">Web Development</Link>
-                    <Link to="/multimedia" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200">Multimedia Creations</Link>
+                    <Link to="/digitalmarketing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200" onClick={handleLinkClick}>Digital Marketing</Link>
+                    <Link to="/graphicaldesign" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200" onClick={handleLinkClick}>Graphical Design</Link>
+                    <Link to="/webdevelopment" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200" onClick={handleLinkClick}>Web Development</Link>
+                    <Link to="/multimedia" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200" onClick={handleLinkClick}>Multimedia Creations</Link>
                   </div>
                 )}
               </div>
@@ -256,7 +262,7 @@ const Nav = () => {
                 <hr />
                 <br />
                 <div className="flex-shrink-0 justify-center ml-10">
-                  <a href="#" title="" className="flex justify-normal mr-[29px]">
+                  <a href="/" title="" className="flex justify-normal mr-[29px]">
                     <img className="h-20" src="/logo/Untitled-3.png" alt="Logo" />
                   </a>
                 </div> <br />
@@ -266,34 +272,29 @@ const Nav = () => {
                   <Link to="/" className="flex w-full mr-[70px] py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
                     <div className='flex justify-center  mt-2' >< IoHome />
                     </div  >
-                    <div className='flex justify-center font-semibold ml-3 '>Home
+                    <div className='flex justify-center font-semibold ml-3 ' onClick={handleLinkClick}>Home
+                    </div>
+
+                  </Link>
+                  <br />
+                  <Link to="/services" className="flex w-full mr-[70px] py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}>
+                    <div className='flex justify-center  mt-2' ><RiServiceFill />
+                    </div  >
+                    <div className='flex justify-center font-semibold ml-3 ' onClick={handleLinkClick} >Service
                     </div>
                   </Link>
 
                   <br />
                   <div className="flex flex-col">
-                    <button
-                      onClick={() => setServicesOpen(!isServicesOpen)}
-                      className="flex w-full py-2 text-center font-medium text-white transition-all duration-200 focus:text-opacity-70" style={{ fontSize: '40px' }}
-                    >
-                      <div className='flex justify-center mt-2' ><RiServiceFill />
-                      </div  >
-                      <div className='flex justify-center font-semibold ml-3 '>   Services
-
-                      </div>
-                    </button>
-                    <br />
-
-                    <br />
 
                     <div className="flex justify-center flex-col pl-4 ml-12">
-                      <Link to="/digitalmarketing" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b>  Digital Marketing</Link>
+                      <Link to="/digitalmarketing" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" onClick={handleLinkClick} style={{ fontSize: '32px' }}> <b>⦿</b>  Digital Marketing</Link>
                       <br /><br />
-                      <Link to="/graphicaldesign" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
+                      <Link to="/graphicaldesign" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" onClick={handleLinkClick} style={{ fontSize: '32px' }}><b>⦿</b> Graphical Design</Link>
                       <br /><br />
-                      <Link to="/webdevelopment" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
+                      <Link to="/webdevelopment" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" onClick={handleLinkClick} style={{ fontSize: '32px' }}> <b>⦿</b> Web Development</Link>
                       <br /><br />
-                      <Link to="/multimedia" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
+                      <Link to="/multimedia" className="py-2 text-sm text-zinc-300 font-medium transition-all duration-200" onClick={handleLinkClick} style={{ fontSize: '32px' }}> <b>⦿</b> Multimedia Creations</Link>
                     </div><br />
 
 
@@ -304,7 +305,7 @@ const Nav = () => {
 
                     <div className='flex justify-center mt-3' ><FaHandshakeSimple />
 
-                    </div  > <div className='flex justify-center font-semibold ml-2 '> About </div>
+                    </div  > <div className='flex justify-center font-semibold ml-2 ' onClick={handleLinkClick}> About </div>
 
 
                   </Link>
@@ -315,8 +316,7 @@ const Nav = () => {
 
 
 
-                    </div  > <div className='flex justify-center font-semibold ml-2 '> Testimonials  </div>
-
+                    </div  > <div className='flex justify-center font-semibold ml-2 ' onClick={handleLinkClick} > Testimonials  </div>
 
 
                   </Link>
@@ -339,8 +339,6 @@ const Nav = () => {
           </nav >
         )
       }
-
-
     </header >
   );
 };

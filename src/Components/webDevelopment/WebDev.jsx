@@ -8,42 +8,37 @@ const WebDev = () => {
         {
             title: 'Ecommerce Development',
             image: './webDev/Ecommerce.png',
-            description: "Enhance your online presence with Liro Studios' expert SEO services. Our team excels in optimizing your site to boost visibility, drive targeted traffic, and improve search engine rankings for sustained greater success."
+            description: "At Liro, we specialize in eCommerce development and strategy consulting. Enhance your eCommerce business with secure payment systems and seamless shopping experiences. Let us create a powerful platform driving growth and success."
         },
         {
             title: 'Web Design',
-            image: './webDev/webDesign.png',
-            description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
+            image: './webDev/webDesign2.png',
+            description: "At Liro, we provide custom web design solutions that elevate your brand with responsive, SEO-friendly designs that stand out in search results. With ongoing support and optimization, we create captivating online experiences that drive results."
         },
         {
             title: 'Fulltstack Web Development',
             image: './webDev/webDesign.png',
-            description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
+            description: "At Liro, we specialize in full stack development, offering tailored front end and back end solutions. Our dynamic designs and robust systems enhance user experiences, driving success in today’s competitive landscape. Partner with us for scalable applications."
         },
-        // {
-        //     title: 'Backend Web Development',
-        //     image: './webDev/webDesign.png',
-        //     description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
-        // },
+         /*{
+             title: 'Backend Web Development',
+             image: './webDev/webDesign.png',
+             description: "At Liro, we specialize in backend development, delivering robust, efficient solutions that enhance your online presence. Our team prioritizes security, scalability, and performance, ensuring seamless integration tailored to your unique needs for online success."
+         }, */
         {
             title: 'Mobile App Development',
             image: './webDev/Mobiledevelopment.png',
-            description: "Amplify your brand's social media impact with Liro Studios. We craft engaging and relevant content, manage profiles, and apply data-driven tactics to elevate online visibility and increase audience interaction."
+            description: "At Liro, our seasoned experts craft cutting-edge mobile applications enhancing user experiences. We leverage modern technologies for robust, scalable solutions tailored to your unique business needs."
         },
         {
             title: 'Website Development',
-            image: './webDev/Website.png',
-            description: "Expand your brand's reach with our strategic Ad Campaigns. We create and execute targeted ads that capture attention, drive traffic, and convert leads, using precise targeting and creative content."
+            image: './webDev/Website3.png',
+            description: "At Liro, we're experts in custom web development, combining front-end and back-end development to craft innovative web applications and responsive websites that boost user experiences, streamline functionality, and meet diverse client needs."
         },
-        // {
-        //     title: 'UI/UX Design',
-        //     image: './webDev/webDesign.png',
-        //     description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
-        // },
         {
             title: 'Website Maintenance & Consulting',
-            image: './webDev/webDesign.png',
-            description: "Boost your brand’s presence with our Social Media Marketing services. We handle your social profiles, create captivating content, and deploy targeted strategies to grow your online community effectively."
+            image: './webDev/maintenance.png',
+            description: "At Liro, we offer comprehensive website maintenance services and consulting to ensure your online presence remains robust and up-to-date. Our expert team provides proactive support, enhancing performance, security, and user experience for your business's website."
         }
     ];
 
@@ -132,24 +127,6 @@ const WebDev = () => {
                     </div>
                 </div>
             </div >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             {/* -------------------------------------------------------------------------------------------------------- */}
 

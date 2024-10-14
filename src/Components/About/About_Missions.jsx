@@ -15,9 +15,10 @@ const AboutCompany = () => {
 
 
     return (
-        <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
+        
+        <div  className="grid relative grid-cols-1 gap-10 mx-auto lg:mt-12 sm:mt-[40rem] lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
             {/* Image Section */}
-            <div className="md:max-w-[600px] mx-auto">
+            <div className="md:max-w-[600px]  mx-auto">
                 <div className="relative">
                     <div className="relative flex justify-center items-center">
                         <div className="block  items-center justify-center">

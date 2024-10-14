@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* Custom font and specific styles */
+.mission-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* Bold */
+  color: #1f2937; /* Equivalent to Tailwind's text-gray-900 */
+}

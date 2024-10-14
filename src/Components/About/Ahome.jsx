@@ -14,7 +14,7 @@ export const Ahome = () => {
 
         <section class="pt-4 overflow-hidden bg-gray-50 md:pt-0 sm:pt-8 2xl:pt-8  ">
             <div class="pt-4 overflow-hidden bg-white md:pt-0 sm:pt-8 2xl:pt-8  ">
-                <div class="px-4 mx-auto sm:px-6 sm:py-16 lg:px-8 max-w-7xl">
+                <div class="px-4 mx-auto sm:px-6 sm:py-16 lg:px-4 max-w-7xl">
                     <div class=" grid grid-cols-1  items-center md:grid-cols-2">
                         <div className=' ml-10  '>
                             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"><span class="highlights">ABOUT LIRO STUDIOS</span></h2>
@@ -25,7 +25,7 @@ export const Ahome = () => {
                             </p>
                             <p className="mt-4 text-xl text-gray-600 md:mt-8">
 
-                                <button className="cta-button">Discover More</button>
+                                {/*<button className="cta-button">Discover More</button> */}
                             </p>
 
                         </div>

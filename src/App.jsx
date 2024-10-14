@@ -73,10 +73,11 @@ import About_Missions from './Components/About/About_Missions';
 import Acount from './Components/About/Acount';
 import Icons from './Components/About/Icons';
 import WhyChooseUs from './Components/About/WhyChooseUs';
+import Newcontent from './Components/About/Newcontent';
+
+
 import SuccessStoryCard from './Components/SuccessStory/SuccessStoryCard';
-
-
-
+import TeamMembers from './Components/teamMembers/Team';
 function App() {
 
   return (
@@ -92,12 +93,18 @@ function App() {
             <Services />
             <Testimonial />
 
-
+          </>
+          }
+        />
+          <Route path="/ourservice_1" element=
+          {<>
+            
+            <Services />
+            
 
           </>
           }
         />
-
 
         <Route path="/about" element=
           {<>
@@ -107,8 +114,9 @@ function App() {
             <br />
             <SuccessStoryCard />
             <br />
-            <About_Missions />
-            <WhyChooseUs />
+            <Newcontent/>
+            {/* <About_Missions />
+            <WhyChooseUs /> */}
             <Acount />
 
           </>
@@ -127,15 +135,15 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
 
-
-
       </Routes>
 
       <Contact />
+    
       {/* <br /> */}
       <Footer />
+    
+      {/* <TeamMembers /> */}
     </div>
-
 
   )
 }
