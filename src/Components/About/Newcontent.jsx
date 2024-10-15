@@ -8,7 +8,7 @@ const Ourmissionnn = () => {
 
       <div className="lg:w-full lg:h-full  relative">
 
-        <div className="relative sm:mt-[659px]  lg:mt-[9px]  lg:h-[723px] sm:h-[500px] bg-white top-0 left-0" />
+        <div className="relative sm:mt-[35px]  lg:mt-[9px]  lg:h-[723px] sm:h-[500px] bg-white top-0 left-0" />
         {/* <img 
         className="absolute lg:w-[598px] sm:w-[650px] sm:h-[577px] lg:h-[485px] lg:top-[120px] sm:top-[475px] lg:left-[75px] sm:left-[200px] transform  origin-top-left rounded-[20px]" 
         src="https://via.placeholder.com/598x485" 
@@ -32,7 +32,7 @@ const Ourmissionnn = () => {
               Jenny Wilson
             </div>
             <div className="absolute top-[12px] left-[122px] text-[#52525B] text-[16px] font-[Poppins] font-normal leading-[26px] break-words">
-              Co-Founder of
+           Founder of
             </div>
             <div className="relative lg:w-[233px] sm:w-[253px]  top-0 left-[251px]">
               {/* <div className="absolute w-[84.36px] h-[16.25px] bg-[#1E293B] top-[5.8px] left-[37.42px]" />

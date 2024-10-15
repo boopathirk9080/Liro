@@ -113,10 +113,10 @@ function App() {
             <Icons />
             <br />
             <SuccessStoryCard />
-            <br />
+            <br /> <WhyChooseUs />
             <Newcontent/>
-            {/* <About_Missions />
-            <WhyChooseUs /> */}
+            {/* <About_Missions /> */}
+           
             <Acount />
 
           </>

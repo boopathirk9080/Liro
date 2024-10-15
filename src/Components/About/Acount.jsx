@@ -19,7 +19,7 @@ export const Acounts = () => {
         const steps = duration / intervalTime;
 
         const incrementYears = 3 / steps;
-        const incrementProjects = 100 / steps;
+        const incrementProjects = 150 / steps;
         const incrementTeam = 25 / steps;
 
         const interval = setInterval(() => {
