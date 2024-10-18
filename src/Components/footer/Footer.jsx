@@ -72,7 +72,7 @@ const Footer = () => {
                                 <p className="lg:text-lg sm:text-[42px] font-semibold text-white">Resources</p>
                                 <ul className="mt-8 space-y-4">
                                     <li>
-                                        <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
+                                        <Link to="/projects" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Projects</Link>
                                     </li>
                                     <li>
                                         <Link to="/About" className="lg:text-base sm:text-4xl text-zinc-300 transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80">Blogs</Link>

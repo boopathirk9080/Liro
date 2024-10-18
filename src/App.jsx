@@ -72,19 +72,24 @@ import Ahome from './Components/About/Ahome';
 import About_Missions from './Components/About/About_Missions';
 import Acount from './Components/About/Acount';
 import Icons from './Components/About/Icons';
+import Faq from './Components/About/Faq';
 import WhyChooseUs from './Components/About/WhyChooseUs';
 import Newcontent from './Components/About/Newcontent';
 
-
 import SuccessStoryCard from './Components/SuccessStory/SuccessStoryCard';
 import TeamMembers from './Components/teamMembers/Team';
+//ourteam
+import Teams from './Components/Ourteam/Teams'
+import Gallery1 from './Components/others/Gallery1'
+import PictureAlign from './Components/others/PictureAlign'
+
 function App() {
 
   return (
     <div className='poiuyt' >
       <Nav />
-      <ScrollToTop />
 
+      <ScrollToTop />
       <Routes>
 
         <Route path="/" element=
@@ -96,12 +101,24 @@ function App() {
           </>
           }
         />
-          <Route path="/ourservice_1" element=
+        <Route path="/ourservice_1" element=
           {<>
-            
-            <Services />
-            
 
+            <Services />
+
+
+          </>
+          }
+        />
+
+        <Route path="/projects" element=
+          {<>
+
+            <Gallery1 />
+            <hr />
+            <Teams />
+
+            <PictureAlign />
           </>
           }
         />
@@ -112,11 +129,12 @@ function App() {
 
             <Icons />
             <br />
+            <WhyChooseUs />
             <SuccessStoryCard />
-            <br /> <WhyChooseUs />
-            <Newcontent/>
+            <br /> <Faq />
+            <Newcontent />
             {/* <About_Missions /> */}
-           
+
             <Acount />
 
           </>
@@ -138,10 +156,10 @@ function App() {
       </Routes>
 
       <Contact />
-    
+
       {/* <br /> */}
       <Footer />
-    
+
       {/* <TeamMembers /> */}
     </div>
 

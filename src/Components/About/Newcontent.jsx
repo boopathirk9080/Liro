@@ -1,7 +1,6 @@
 import React from 'react'
 import pic2 from "../../assets/AboutPage/coma2.png"; 1
 import Ourmissiontext from '../AboutHeadingText/Ourmissiontext'
-
 const Ourmissionnn = () => {
   return (
     <div>
