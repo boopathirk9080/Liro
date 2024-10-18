@@ -159,7 +159,7 @@ const WebDev = () => {
                                 <div className="p-9">
                                     <div className="relative">
                                         <div className="relative flex justify-center items-center">
-                                            <div className="block  items-center justify-center">
+                                            <div className="block block flex items-center justify-center">
                                                 <img className="object-cover"
                                                     style={{ height: '70%', width: '50%' }}
                                                     src={card.image} alt="" />
