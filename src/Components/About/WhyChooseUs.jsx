@@ -3,7 +3,7 @@ import pic1 from "../../assets/Mountain/Mountains30.jpg"; // Update with your ac
 import '../../App.css';
 const AboutCompany = () => {
     return (
-        <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
+        <div className="grid grid-cols-1 gap-10 mx-auto mt-8 lg:max-w-7xl lg:grid-cols-2 lg:gap-16 justify-center">
             <div className="md:max-w-[700px] mx-auto">
                 <div className="relative">
 
@@ -12,7 +12,7 @@ const AboutCompany = () => {
                     </h2>
                     <br />
                     <div className="px-5 sm:px-0">
-                        <p className="mt-4 lg:text-base md:text-2xl sm:text-2xl leading-relaxed text-black text-justify"
+                        <p className="mt-4 lg:text-1xl md:text-2xl sm:text-2xl leading-relaxed text-black text-justify"
                             style={{ maxWidth: '100%', letterSpacing: "0px" }}>
                             Innovation-Driven: We are always at the forefront of the latest technological advancements, ensuring our clients
                             benefit from cutting-edge solutions.

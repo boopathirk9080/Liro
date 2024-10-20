@@ -58,6 +58,11 @@ import './index.css';  // or './App.css'
 import './App.css'
 import Contact from './Components/Contact/Contact';
 import Testimonial from './Components/Testimonial/Testimonial';
+import TestimonialsList from './Components/Testimonial/Testimonialss'
+
+
+
+
 import DigitalMarketing from './Components/digitalMarketing/DigitalMarketing';
 import WebDev from './Components/webDevelopment/WebDev';
 import Multimedia from './Components/multimedia/Multimedia';
@@ -74,7 +79,7 @@ import Acount from './Components/About/Acount';
 import Icons from './Components/About/Icons';
 import Faq from './Components/About/Faq';
 import WhyChooseUs from './Components/About/WhyChooseUs';
-import Newcontent from './Components/About/Newcontent';
+import Newcontent from './Components/About/Mission';
 
 import SuccessStoryCard from './Components/SuccessStory/SuccessStoryCard';
 import TeamMembers from './Components/teamMembers/Team';
@@ -82,13 +87,16 @@ import TeamMembers from './Components/teamMembers/Team';
 import Teams from './Components/Ourteam/Teams'
 import Gallery1 from './Components/others/Gallery1'
 import PictureAlign from './Components/others/PictureAlign'
+import TermsAndConditions from './Components/termsConditions/TermsAndConditions';
+
+
 
 function App() {
 
   return (
     <div className='poiuyt' >
       <Nav />
-
+      {/* <TestimonialsList /> */}
       <ScrollToTop />
       <Routes>
 
@@ -97,7 +105,8 @@ function App() {
             <  Home />
             <Services />
             <Testimonial />
-
+            <TestimonialsList />
+            <Contact />
           </>
           }
         />
@@ -128,34 +137,67 @@ function App() {
             <Ahome />
 
             <Icons />
+            <Newcontent />
             <br />
             <WhyChooseUs />
             <SuccessStoryCard />
             <br /> <Faq />
-            <Newcontent />
+
             {/* <About_Missions /> */}
 
             <Acount />
+            <Contact />
 
           </>
           }
         />
 
         {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/services" element={
+          <>
+            <Services />
+            <Contact />
+          </>
+        }
+        />
         <Route path="/services" element={<Services />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/digitalmarketing" element={<DigitalMarketing />} />
-        <Route path="/webdevelopment" element={<WebDev />} />
-        <Route path="/multimedia" element={<Multimedia />} />
-        <Route path="/graphicaldesign" element={<GraphicalDesign />} />
-        <Route path="/testimonials" element={<Testimonial />} />
+        <Route path="/digitalmarketing" element={
+          <>
+            <DigitalMarketing />
+            <Contact />
+          </>
+        } />
+        <Route path="/webdevelopment" element={
+          <>
+            <WebDev />
+            <Contact />
+          </>
+        } />
+        <Route path="/multimedia" element={
+          <>
+            <Multimedia />
+            <Contact />
+          </>
+        } />
+        <Route path="/graphicaldesign" element={
+          <>
+            <GraphicalDesign />
+            <Contact />
+          </>
+        } />
+        <Route path="/testimonials" element={
+          <>
+            <Testimonial />
+            <TestimonialsList />
+          </>} />
+        <Route path="/testimonials" element={<TestimonialsList />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
-
+        <Route path="/termsAndConditions" element={<TermsAndConditions />} />
       </Routes>
 
-      <Contact />
+      {/* <Contact /> */}
 
       {/* <br /> */}
       <Footer />

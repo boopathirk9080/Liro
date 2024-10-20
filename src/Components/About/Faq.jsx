@@ -18,7 +18,7 @@
 
 //       <div className="max-w-2xl mx-auto">
 //         <div className="hs-accordion-group">
-          
+
 //           {/* Accordion Item 1 */}
 //           <div className={`hs-accordion ${activeIndex === 0 ? 'active' : ''} rounded-xl p-6 dark:hs-accordion-active:bg-white/10`} id="faq1">
 //             <button 
@@ -108,7 +108,7 @@ const FAQ = () => {
 
       <div className="max-w-4xl mx-auto">
         <div className="space-y-4 ">
-          
+
           {/* Accordion Item 1 */}
           <div className={`border border-blue-200 rounded-lg shadow-md ${activeIndex === 0 ? 'bg-blue-50' : 'bg-white'}`}>
             <button
@@ -159,8 +159,8 @@ const FAQ = () => {
               Our subscriptions are tiered to fit your needs. We offer flexible pricing based on the services you require.Answers to the most frequently asked questions, crafted with care.
             </div>
           </div>
-           {/* Accordion Item 4 */}
-           <div className={`border border-blue-200 rounded-lg shadow-md ${activeIndex === 3 ? 'bg-blue-50' : 'bg-white'}`}>
+          {/* Accordion Item 4 */}
+          <div className={`border border-blue-200 rounded-lg shadow-md ${activeIndex === 3 ? 'bg-blue-50' : 'bg-white'}`}>
             <button
               className="flex items-center justify-between w-full p-5 text-left lg:text-[1.55rem] md:text-2xl font-semibold text-gray-700 focus:outline-none hover:text-blue-600"
               onClick={() => toggleAccordion(3)}
@@ -176,8 +176,8 @@ const FAQ = () => {
             </div>
           </div>
 
-           {/* Accordion Item 5 */}
-           <div className={`border border-blue-200 rounded-lg shadow-md ${activeIndex === 4 ? 'bg-blue-50' : 'bg-white'}`}>
+          {/* Accordion Item 5 */}
+          <div className={`border border-blue-200 rounded-lg shadow-md ${activeIndex === 4 ? 'bg-blue-50' : 'bg-white'}`}>
             <button
               className="flex items-center justify-between w-full p-5 text-left lg:text-[1.55rem] md:text-2xl font-semibold text-gray-700 focus:outline-none hover:text-blue-600"
               onClick={() => toggleAccordion(4)}
@@ -220,41 +220,41 @@ export default FAQ;
 // import '../../App.css';
 
 // const AboutCompany = () => {
-    // Initialize AOS
+// Initialize AOS
 
 
-    // return (
+// return (
 
 
-    //     <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
+//     <div className="grid grid-cols-1 gap-10 mx-auto mt-12 lg:max-w-5xl lg:grid-cols-2 lg:gap-16 justify-center">
 
-    //         <div className="md:max-w-[700px] mx-auto">
-    //             <div className="relative">
+//         <div className="md:max-w-[700px] mx-auto">
+//             <div className="relative">
 
-    //                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-    //                     <span className="highlights">Why Choose Us?</span>
-    //                 </h2>
-    //                 <br />
+//                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+//                     <span className="highlights">Why Choose Us?</span>
+//                 </h2>
+//                 <br />
 
-    //                 <div className="px-5 sm:px-0">
+//                 <div className="px-5 sm:px-0">
 
-    //                     <p className="mt-4 lg:text-base md:text-2xl sm:text-2xl leading-relaxed text-black text-justify"
-    //                         style={{ maxWidth: '100%', letterSpacing: "0px" }}>
-    //                         Innovation-Driven: We are always at the forefront of the latest technological advancements, ensuring our clients
-    //                         benefit from cutting-edge solutions.
+//                     <p className="mt-4 lg:text-base md:text-2xl sm:text-2xl leading-relaxed text-black text-justify"
+//                         style={{ maxWidth: '100%', letterSpacing: "0px" }}>
+//                         Innovation-Driven: We are always at the forefront of the latest technological advancements, ensuring our clients
+//                         benefit from cutting-edge solutions.
 
-    //                         Client-Centric Approach: Your success is our priority. We tailor our services to meet your unique needs and objectives.
-    //                         <br />
-    //                         <br />
-    //                         Experienced Team: Our team comprises seasoned professionals with deep expertise in various domains, including digital
-    //                         marketing, SEO, and creative strategies, all working together to deliver exceptional results. Join Us on Your Digital Journey.
-    //                     </p>
-    //                 </div>
-    //                 <br />
-    //             </div>
-    //         </div>
+//                         Client-Centric Approach: Your success is our priority. We tailor our services to meet your unique needs and objectives.
+//                         <br />
+//                         <br />
+//                         Experienced Team: Our team comprises seasoned professionals with deep expertise in various domains, including digital
+//                         marketing, SEO, and creative strategies, all working together to deliver exceptional results. Join Us on Your Digital Journey.
+//                     </p>
+//                 </div>
+//                 <br />
+//             </div>
+//         </div>
 
-            {/* Image Section */}
+{/* Image Section */ }
 //             <div className="md:max-w-[700px] mx-auto">
 //                 <div className="relative">
 //                     <div className="relative flex justify-center items-center">
