@@ -612,7 +612,6 @@ const TestimonialsList = () => {
                 : [currentIndex]
         );
     };
-
     return (
         <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6 px-4'> {/* Added padding for mobile */}
             {testimonialsData.map((testimonialsArray, arrayIndex) => (

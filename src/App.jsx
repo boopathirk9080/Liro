@@ -195,14 +195,23 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />
+
+
+        <Route path="/contact" element={
+          <>
+            <Contact/>
+
+          </>} />
+
+
+
+
+
       </Routes>
 
-      {/* <Contact /> */}
 
-      {/* <br /> */}
       <Footer />
 
-      {/* <TeamMembers /> */}
     </div>
 
   )

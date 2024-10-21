@@ -32,7 +32,7 @@ const WebDev = () => {
         },
         {
             title: 'Website Development',
-            image: './webDev/Website3.png',
+            image: './webDev/Website.png',
             description: "At Liro, we're experts in custom web development, combining front-end and back-end development to craft innovative web applications and responsive websites that boost user experiences, streamline functionality, and meet diverse client needs."
         },
         {
@@ -131,7 +131,7 @@ const WebDev = () => {
             {/* -------------------------------------------------------------------------------------------------------- */}
 
             <br></br>
-            <section className="py-10 bg-white sm:py-16 lg:py-24">
+            <section className="py-10 bg-white sm:py-6 lg:py-24">
                 <div className="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
                     <div className="flex items-end justify-between">
                         <div className="flex-1 text-center lg:text-left">
@@ -176,15 +176,15 @@ const WebDev = () => {
                         ))}
                     </div>
 
-                    <div className="flex items-center justify-center mt-8 space-x-3 lg:hidden">
-                        <button onClick={handlePrevClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="flex items-center justify-center mt-8 space-x-3  lg:hidden">
+                        <button onClick={handlePrevClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded lg:w-9 lg:h-9 sm:w-[70px] sm:h-[60px] hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="lg:w-9 lg:h-9 sm:w-[29px] sm:h-[29px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
                             </svg>
                         </button>
 
-                        <button onClick={handleNextClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <button onClick={handleNextClick} type="button" className="flex items-center justify-center text-gray-400 transition-all duration-200 bg-transparent border border-gray-300 rounded lg:w-9 lg:h-9 sm:w-[70px] sm:h-[60px] hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="lg:w-9 lg:h-9 sm:w-[29px] sm:h-[29px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                             </svg>
                         </button>

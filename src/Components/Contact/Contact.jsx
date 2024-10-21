@@ -82,7 +82,7 @@ const Contact = () => {
                     <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">
                         <span class="highlights"> Get in touch with us</span>
                     </h2>
-                    <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-500">
+                    <p className="max-w-xl mx-auto mt-4 lg:text-base sm:text-[25px]  leading-relaxed text-gray-500">
                         With a passion for excellence, we bring your ideas to life through cutting-edge digital marketing,
                         exquisite graphic design, and mesmerizing VFX & video support.
                     </p>
