@@ -89,7 +89,9 @@ import Gallery1 from './Components/others/Gallery1'
 import PictureAlign from './Components/others/PictureAlign'
 import TermsAndConditions from './Components/termsConditions/TermsAndConditions';
 
-
+//Anewconponents
+import GalleryWeb from './Components/Anewcomponents/Gallery1'
+import OurTeams from './Components/Anewcomponents/OurTeam'
 
 function App() {
 
@@ -103,7 +105,11 @@ function App() {
         <Route path="/" element=
           {<>
             <  Home />
+            <GalleryWeb />
+            {/* <OurTeams /> */}
             <Services />
+
+
             <Testimonial />
             <TestimonialsList />
             <Contact />
@@ -125,7 +131,7 @@ function App() {
 
             <Gallery1 />
             <hr />
-            <Teams />
+            <OurTeams />
 
             <PictureAlign />
           </>
@@ -193,13 +199,19 @@ function App() {
         <Route path="/testimonials" element={<TestimonialsList />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/blog" element={<Blog />} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/team" element={<>
+          <Team />
+          <OurTeams />
+          <Teams />
+
+        </>}
+        />
         <Route path="/termsAndConditions" element={<TermsAndConditions />} />
 
 
         <Route path="/contact" element={
           <>
-            <Contact/>
+            <Contact />
 
           </>} />
 
@@ -207,8 +219,9 @@ function App() {
 
 
 
-      </Routes>
 
+
+      </Routes>
 
       <Footer />
 
