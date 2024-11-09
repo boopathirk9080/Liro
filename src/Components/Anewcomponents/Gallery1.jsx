@@ -21,11 +21,15 @@ const settings = {
 
 const AutoSlider = () => {
     return (
-        <div className="container mx-auto py-8">
+        <div className="container w-full mx-auto py-8 overflow-hidden">
             <Slider {...settings}>
                 {images.map((image, index) => (
-                    <div className='w-1536' key={index}>
-                        <img src={image} alt={`Slide ${index}`} className="w-[1536px] h-[256px] object-cover rounded-lg" />
+                    <div key={index} className="flex justify-center">
+                        <img
+                            src={image}
+                            alt={`Slide ${index}`}
+                            className="w-full lg:w-[1400px] max-w-[800px] mx-auto h-64 object-cover object-center rounded-lg"
+                        />
                     </div>
                 ))}
             </Slider>

@@ -105,13 +105,13 @@ function App() {
         <Route path="/" element=
           {<>
             <  Home />
-            <GalleryWeb />
+            
             {/* <OurTeams /> */}
             <Services />
 
 
             <Testimonial />
-            <TestimonialsList />
+            <TestimonialsList /><GalleryWeb />
             <Contact />
           </>
           }
@@ -214,11 +214,6 @@ function App() {
             <Contact />
 
           </>} />
-
-
-
-
-
 
 
       </Routes>

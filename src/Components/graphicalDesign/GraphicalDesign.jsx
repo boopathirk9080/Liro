@@ -78,7 +78,7 @@ const GraphicalDesign = () => {
     const displayedCards = [...cards, ...cards].slice(currentIndex, currentIndex + 3);
 
     return (
-        <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+        <section class="py-10 bg-white sm:py-16 lg:py-24">
 
 
 

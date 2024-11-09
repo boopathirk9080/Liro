@@ -412,7 +412,7 @@ const Nav = () => {
             </div>
 
             {/* Mobile menu button */}
-            <button
+            {/* <button
               type="button"
               className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-800 hover:bg-gray-800"
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -420,6 +420,38 @@ const Nav = () => {
               <svg className="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
               </svg>
+              <button
+                type="button"
+                className="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800"
+                onClick={() => setMobileMenuOpen(true)}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="mt-10 w-20 h-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <FaWindowClose />
+                </svg>
+              </button>
+            </button> */}
+
+
+
+            <button
+              type="button"
+              className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-800 hover:bg-gray-800"
+              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? (
+                // Close icon (FaWindowClose)
+                <FaWindowClose className="w-12 h-12" />
+              ) : (
+                // Hamburger icon
+                <svg
+                  className="w-12 h-12"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+              )}
             </button>
 
             {/* Desktop links */}
@@ -461,15 +493,14 @@ const Nav = () => {
       {isMobileMenuOpen && (
         <nav className="fixed inset-0 z-50 flex flex-col justify-between w-[500px] min-h-screen px-4 py-10 bg-[#0d233afc] sm:px-6 lg:hidden transition-all duration-300 ease-in-out">
           {/* Close button */}
-          <button
+          {/* <button
             type="button"
             className="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800"
-            onClick={() => setMobileMenuOpen(false)}
-          >
+            onClick={() => setMobileMenuOpen(false)}>
             <svg xmlns="http://www.w3.org/2000/svg" className="mt-10 w-20 h-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <FaWindowClose />
             </svg>
-          </button>
+          </button> */}
 
           {/* Mobile Links */}
           <div className="flex flex-col flex-grow h-full">

@@ -668,7 +668,7 @@ const CardGrid = () => {
     const [flipped, setFlipped] = useState(null); // To track which card is flipped
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <div className="flex flex-col items-center justify-center pt-[10px] pb-[30px] bg-gray-100">
             <h2 className="text-3xl font-bold text-gray-800 my-10">Our Projects</h2>
 
             {/* Grid layout with fixed-size cards */}
